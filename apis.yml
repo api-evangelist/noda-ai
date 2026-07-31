@@ -1,8 +1,29 @@
 aid: noda-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noda-ai.png
 name: NODA AI
-description: 'NODA AI is a company surfaced as a portfolio company of bessemer-venture-partners, bloomberg-beta
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'NODA AI is a defense-technology company building autonomous force orchestration
+  for the frontlines. Founded in 2024 in Austin, Texas by Global War on Terrorism veterans,
+  it develops URZA, an AI-native strategic orchestration platform that acts as a tactics
+  repository and reasoning engine for real-time task brokering across vendor-agnostic,
+  mixed-fleet autonomous assets, integrated with 30+ OEM vehicles and control systems
+  from subsurface to space; and LARIA, a synthetic weapons-and-tactics training environment
+  that uses digital-twin modeling to develop and test autonomous plays. In February 2026
+  the company raised a $25M Series A led by Bessemer Venture Partners to serve the U.S.
+  Department of War, the Intelligence Community, and the UK Ministry of Defense. NODA AI
+  is a portfolio company of Bessemer Venture Partners and Bloomberg Beta. It publishes no
+  public API, developer documentation, or SDKs; its GitHub organization holds no public
+  repositories.'
 url: https://raw.githubusercontent.com/api-evangelist/noda-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
+- Defense
+- Defense Technology
+- Autonomy
+- Artificial Intelligence
+- Orchestration
+- Military
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +52,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/noda-ai-domain-security.yml
 - type: Website
   url: https://www.nodaintelligence.ai/
+- type: GitHubOrganization
+  url: https://github.com/noda-ai
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
